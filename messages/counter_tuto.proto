@@ -1,0 +1,12 @@
+syntax = "proto3";
+package counter_tuto;
+
+message ReadRequest {
+  repeated int32 input_numbers = 1;
+  string input_string = 2;
+}
+
+message ReadResponse {
+  repeated int32 output_numbers = 1;
+  string output_string = 2;
+}

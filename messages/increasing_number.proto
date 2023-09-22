@@ -1,0 +1,9 @@
+syntax = "proto3";
+package increasing_number;
+
+message Signal { int32 current_number = 1; }
+
+
+message CounterInc {
+    int32 counter = 1;
+}
